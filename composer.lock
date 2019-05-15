@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "1bd29340ed0d6993ebb5549ca040fca5",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2635,6 +2635,44 @@
                 "environment"
             ],
             "time": "2019-03-06T09:39:45+00:00"
+        },
+        {
+            "name": "webreinvent/vaahcms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webreinvent/vaahcms.git",
+                "reference": "d9f99a4945fe1ee729a455a48b700c33d83ea322"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webreinvent/vaahcms/zipball/d9f99a4945fe1ee729a455a48b700c33d83ea322",
+                "reference": "d9f99a4945fe1ee729a455a48b700c33d83ea322",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WebReinvent\\VaahCms\\": "src/"
+                },
+                "files": []
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pradeep",
+                    "email": "we@webreinvent.com"
+                }
+            ],
+            "description": "Laravel Based Rapid Development CMS Framework",
+            "homepage": "https://www.webreinvent.com",
+            "keywords": [
+                "laravel"
+            ],
+            "time": "2019-05-15T14:19:11+00:00"
         }
     ],
     "packages-dev": [
@@ -4404,7 +4442,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "webreinvent/vaahcms": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
