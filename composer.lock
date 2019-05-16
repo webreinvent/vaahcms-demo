@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1bd29340ed0d6993ebb5549ca040fca5",
+    "content-hash": "0e47813de866d866dd7498aae9e73c49",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2638,16 +2638,16 @@
         },
         {
             "name": "webreinvent/vaahcms",
-            "version": "dev-master",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webreinvent/vaahcms.git",
-                "reference": "d9f99a4945fe1ee729a455a48b700c33d83ea322"
+                "reference": "1c932198e141547cb2c8b9f8f59d8d2ce78ac169"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webreinvent/vaahcms/zipball/d9f99a4945fe1ee729a455a48b700c33d83ea322",
-                "reference": "d9f99a4945fe1ee729a455a48b700c33d83ea322",
+                "url": "https://api.github.com/repos/webreinvent/vaahcms/zipball/1c932198e141547cb2c8b9f8f59d8d2ce78ac169",
+                "reference": "1c932198e141547cb2c8b9f8f59d8d2ce78ac169",
                 "shasum": ""
             },
             "type": "library",
@@ -2672,7 +2672,7 @@
             "keywords": [
                 "laravel"
             ],
-            "time": "2019-05-15T14:19:11+00:00"
+            "time": "2019-05-16T12:08:18+00:00"
         }
     ],
     "packages-dev": [
@@ -4442,9 +4442,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "webreinvent/vaahcms": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

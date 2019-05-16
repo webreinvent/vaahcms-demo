@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+var fs = require('fs');
 
 /*
  |--------------------------------------------------------------------------
@@ -11,5 +12,10 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+var admin_assets_json = JSON.parse(fs.readFileSync('resources/assets/vendor/vaahcms/admin/default/assets.json'));
+
+console.log(admin_assets_json);
+
+mix.combine(admin_assets_json['css'], 'public/css/vaahcms-admin.css')
+    .combine(admin_assets_json['js'], 'public/js/vaahcms-admin.js')
+    .version();
