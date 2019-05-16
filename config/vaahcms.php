@@ -4,13 +4,15 @@
  * Your package config would go here
  */
 
-use Illuminate\Filesystem\Filesystem as File;
+use Illuminate\Filesystem;
+
+$filesystem = new Filesystem\Filesystem();
 
 $config = array();
 
 $path = __DIR__."/../../composer.json";
-if (File::exists($path)) {
-    $file = File::get($path);
+if ($filesystem->exists($path)) {
+    $file = $filesystem->get($path);
     $config = json_decode($file);
     $config = (array)$config;
 }
