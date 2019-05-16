@@ -4,11 +4,13 @@
  * Your package config would go here
  */
 
+use Illuminate\Support\Facades\File;
+
 $config = array();
 
 $path = __DIR__."/../../composer.json";
-if (\File::exists($path)) {
-    $file = \File::get($path);
+if (File::exists($path)) {
+    $file = File::get($path);
     $config = json_decode($file);
     $config = (array)$config;
 }
