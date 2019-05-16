@@ -4,7 +4,7 @@
  * Your package config would go here
  */
 
-use Illuminate\Support\Facades\File;
+use Illuminate\Filesystem\Filesystem as File;
 
 $config = array();
 
